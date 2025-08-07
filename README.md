@@ -102,18 +102,18 @@ Algorithm to Check Whether a Character is a Vowel or Consonant
 
 Algorithm to Display Day of the Week Using Switch Case
 1. Start
-2. Declare an integer variable day
-3. Display the message: "Enter a number (1-7): "
-4. Read the value of day from the user
-5. Use switch(day) to match the input:
-* case 1: Display "Monday" and break
-* case 2: Display "Tuesday" and break
-* case 3: Display "Wednesday" and break
-* case 4: Display "Thursday" and break
-* case 5: Display "Friday" and break
-* case 6: Display "Saturday" and break
-* case 7: Display "Sunday" and break
-* default: Display "Invalid input! please enter from 1 to 7"
+2. Declare an integer variable `day`
+3. Display the message: `"Enter a number (1-7): "`
+4. Read the value of `day` from the user
+5. Use `switch(day)` to match the input:
+* `case 1`: Display `"Monday"` and break
+* `case 2`: Display `"Tuesday"` and break
+* `case 3`: Display `"Wednesday"` and break
+* `case 4`: Display `"Thursday"` and break
+* `case 5`: Display `"Friday"` and break
+* `case 6`: Display `"Saturday"` and break
+* `case 7`: Display `"Sunday"` and break
+* `default`: Display `"Invalid input! please enter from 1 to 7."`
 6. End
 
 
