@@ -4,43 +4,23 @@ PRN:-24070123042
 Batch:-A2
 */
 #include <iostream>
-using namespace std;   
+using namespace std;
 
 int main(){
-    int num1, num2;
-    char ch;
-    cout << "Enter two numbers: ";
-    cin >> num1 >> num2;
-    cout << "Enter an operator (+, -, *, /): ";
-    cin >> ch;
-    switch(ch){
-        case '+':
-            cout << "Result: " << num1 + num2 << endl;
-            break;
-        case '-':
-            cout << "Result: " << num1 - num2 << endl;
-            break;
-        case '*':
-            cout << "Result: " << num1 * num2 << endl;
-            break;
-        case '/':
-            if(num2 != 0) {
-                cout << "Result: " << num1 / num2 << endl;
-            } else {
-                cout << "Error: Division by zero!" << endl;
-            }
-            break;
-        default:
-            cout << "Invalid operator!" << endl;
+    int num;
+    cout << "Type number : ";
+    cin >> num;
+    if(num%2 == 0){
+        cout << "The number is Even";
     }
-    return 0;
+    else {
+        cout << "The number is Odd";
+    }
 }
 /*
 Output:
-1) Enter two numbers: 5 10
-   Enter an operator (+, -, *, /): *
-   Result: 50
-2) Enter two numbers: 20 4
-   Enter an operator (+, -, *, /): /
-    Result: 5
+1)Type number : 5
+The number is Odd
+2)Type number : 8 
+The number is Even
 */
